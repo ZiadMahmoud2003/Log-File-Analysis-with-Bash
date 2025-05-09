@@ -1,0 +1,120 @@
+Log Analysis Report
+===================
+Date: 09 ماي, 2025 EEST 08:36:07 م
+
+1. Request Counts
+------------------
+Total requests: 10000
+GET requests: 9952
+POST requests: 5
+
+2. Unique IP Analysis
+------------------------
+Unique IP addresses: 1753
+
+Top 5 IPs by request volume:
+    482 66.249.73.135
+    364 46.105.14.53
+    357 130.237.218.86
+    273 75.97.9.59
+    113 50.16.19.13
+
+Top IPs and GET/POST count:
+66.249.73.135    GET: 482   POST: 0    
+46.105.14.53     GET: 364   POST: 0    
+130.237.218.86   GET: 357   POST: 0    
+75.97.9.59       GET: 273   POST: 0    
+50.16.19.13      GET: 113   POST: 0    
+
+3. Failure Requests
+---------------------
+Failed requests (4xx/5xx): 220
+Failure percentage: 2.20%
+
+4. Most Active IP
+-------------------
+IP Address: 66.249.73.135
+
+5. Daily Request Averages
+---------------------------
+Total days: 4
+Average requests/day: 2500.00
+
+6. Days with Most Failures
+----------------------------
+     66 19/May/2015
+     66 18/May/2015
+     58 20/May/2015
+     30 17/May/2015
+
+7. Requests by Hour
+----------------------
+    345 08
+    346 22
+    354 03
+    355 04
+    356 23
+    357 07
+    360 01
+    361 00
+    364 09
+    365 02
+    366 06
+    371 05
+    443 10
+    453 21
+    459 11
+    462 12
+    473 16
+    475 13
+    478 18
+    484 17
+    486 20
+    493 19
+    496 15
+    498 14
+
+8. Status Code Breakdown
+---------------------------
+   9126 200
+    445 304
+    213 404
+    164 301
+     45 206
+      3 500
+      2 416
+      2 403
+
+9. Most Active IPs by Method
+------------------------------
+66.249.73.135    GET: 482   POST: 0    
+46.105.14.53     GET: 364   POST: 0    
+130.237.218.86   GET: 357   POST: 0    
+75.97.9.59       GET: 273   POST: 0    
+50.16.19.13      GET: 113   POST: 0    
+209.85.238.199   GET: 102   POST: 0    
+68.180.224.225   GET: 99    POST: 0    
+100.43.83.137    GET: 84    POST: 0    
+208.115.111.72   GET: 83    POST: 0    
+198.46.149.143   GET: 82    POST: 0    
+
+10. Failure Patterns by Hour
+------------------------------
+     18 09
+     15 05
+     14 06
+     12 17
+     12 13
+     12 10
+     11 14
+     11 11
+     10 19
+     10 02
+
+11. Analysis Recommendations
+-------------------------------
+1. Reduce broken links to lower 404s.
+2. Set up IP rate limiting for top users.
+3. Scale infrastructure for peak hours (14:00–20:00).
+4. Audit server for rare but present 500 errors.
+5. Consider bots and crawlers—check robots.txt.
