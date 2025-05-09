@@ -11,7 +11,7 @@ This project performs a detailed analysis of Apache server log files using a cus
 |------|-------------|
 | `log_analyzer.sh` | Bash script that parses and analyzes the Apache log file |
 | `apache_logs.txt` | Sample log file used as input |
-| `apache_log_analysis_final.pdf` | Final professional report generated from the analysis |
+| `apache_log_analysis_final_report.pdf` | Final professional report generated from the analysis |
 
 ---
 
